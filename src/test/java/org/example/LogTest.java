@@ -37,7 +37,7 @@ public class LogTest extends BaseTest{
                 {"tomsmith", "SuperSecretPassword!",
                         "/secure", "You logged into a secure area!"},
                 {"Tomsmith", "SuperSecretPassword!",
-                        "/login", "Your username is invalid!"},
+                        "/login", "THIS MESSAGE SHOULD NOT APPEAR"},
                 {"tomsmith", "superSecretPassword!",
                         "/login", "Your password is invalid!"}
         };
